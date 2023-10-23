@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding: 30px 0;
+	background-color: rgb(232, 232, 232);
+	position: fixed;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: auto;
+}
+
+a {
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	height: 100vh;
+}
+
+#green {
+	background-color: green;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#red {
+	background-color: red;
+}
+
+/* .item {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+
+.item-2 {
+	position: absolute;
+	left: 100px;
+	top: 30px;
+	background-color: blueviolet;
+	z-index: -1;
+} */
+
+/* 
+id - идентификатор блока. уникальное название блока, может применяться только единожды
+
+ 1. селектор по id - #idName 
+ 2. селектор по тегу - .className 
+ 3. селектор по классу - tagName 
+ 4. селектор по атрибуту - tagName[attrName="attrValue"] 
+
+100vh -высота окна браузера
+    view height - относительная единица измерения (относительная высота окна браузера)
+
+=============== POSITION ===============
+
+position - позволяет позиционировать элементы на странице, по умолчанию position: static;
+
+relative - относительное позиционирование, можем позиционировать элемент относительно его текущего местоположения
+
+absolute - абсолютное позиционирование, можем позиционировать элемент относительно ближайшего позиционированного элемента, если таких нет, то относительно страницы (body), при этом, если у элемента position: absolute;, то другие элементы его не видят 
+
+С помощью координат можно указать положение квадрата относительно его текущего положения:
+    left - слева
+    right - справа
+    top - сверху
+    bottom - снизу
+*/

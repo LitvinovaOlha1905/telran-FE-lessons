@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #EEEFF1;
+  padding: 100px 0;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+p {
+  margin: 80px auto 65px;
+  width: 30%;
+  text-align: center;
+  color: #727272;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  width: 30%;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control input {
+  padding: 20px;
+  width: calc(50% - 15px);
+  border: none;
+  outline: none;
+  caret-color: #34547A;
+}
+
+.form-control input:focus,
+textarea:focus {
+  border: 1px solid #34547A;
+}
+
+textarea {
+  margin: 20px 0 50px;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  margin: auto;
+  padding: 20px 0;
+  width: 50%;
+
+  border: none;
+  outline: none;
+  background-color: #34547A;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.64;
+  letter-spacing: 2.1px;
+}
+
+/*
+    Псевдокласс :focus - это особое состояние input, textarea, в момент ввода в input текста
+
+    Селекторы:
+        1. по тегу - h1 {}, p {}, section {}
+        2. по классу - .className, .item, .item-1, .form-control
+        3. по аттрибуту тега - input[AttrName="AttrValue"]. 
+
+    flex-direction - меняет направление flex элементов.
+        по умолчанию row - все элементы в одну строку
+        column - элементы выстраиваются в колонку, при этом justify-content и align-items
+            меняются. 
+*/
