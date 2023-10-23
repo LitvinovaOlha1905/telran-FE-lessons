@@ -144,8 +144,8 @@ console.log(`Привет, ${names[0]}`)
 // 	}
 // }
 
-const numbers = [10, 17, 11, 21, 40, 501, 50, 46, 8]
-let sum = 0
-for (let i = 0; i < numbers.length; i++) {
-	sum = sum + numbers[i]
-}
+// const numbers = [10, 17, 11, 21, 40, 501, 50, 46, 8]
+// let sum = 0
+// for (let i = 0; i < numbers.length; i++) {
+// 	sum = sum + numbers[i]
+// }
