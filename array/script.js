@@ -149,3 +149,36 @@ console.log(`Привет, ${names[0]}`)
 // for (let i = 0; i < numbers.length; i++) {
 // 	sum = sum + numbers[i]
 // }
+
+// ...
+
+// const numbers = [10, 17, 11, 21, 40, 501, 50, 46]
+// let sum = 0
+// for (let i = 0; i < numbers.length; i++) {
+// 	if (numbers[i] % 2 == 0) {
+// 		sum = sum + numbers[i]
+// 	}
+// }
+// console.log(sum)
+
+// ...
+
+// const numbers = [10, 17, 11, 21, 40, 501, 50, 46]
+// let sumOdd = 0
+// let sumEven = 0
+// for (let i = 0; i < numbers.length; i++) {
+// 	if (numbers[i] % 2 == 0) {
+// 		sumOdd = sumOdd + numbers[i]
+// 	} else {
+// 		sumEven = sumEven + numbers[i]
+// 	}
+// }
+
+// const sumFinal = sumEven - sumOdd
+
+// if (sumEven > sumOdd) {
+// 	sumEven - sumOdd
+// } else {
+// 	sumOdd - sumEven
+// }
+// console.log(sumFinal)

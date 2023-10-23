@@ -2,11 +2,11 @@
 // console.log(100)
 // prompt("Введите число")
 
-const numbers = []
-const firstNumber = +prompt("Введите первое число:")
-const secondNumber = +prompt("Введите второе число:")
-numbers.push(firstNumber, secondNumber)
-console.log(numbers)
+// const numbers = []
+// const firstNumber = +prompt("Введите первое число:")
+// const secondNumber = +prompt("Введите второе число:")
+// numbers.push(firstNumber, secondNumber)
+// console.log(numbers)
 
 // можно менять значение переменной
 // let name = "Arsen"
